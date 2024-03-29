@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white ;
+    padding: 5vw;
 }
 .haut_de_page {
     display : grid;
@@ -30,7 +31,7 @@ nav {
     grid-column: 2;
     color : rgb(75, 169, 86);
     grid-row:1;
-    font-size : 2vw;
+    font-size : 1.8vw;
     align-self: center;
 }
 nav ul {
@@ -93,5 +94,21 @@ nav > ul li:hover .sous{
 
 .menu-ressources > a::after{
     content : "▼";
-    font-size : 12px;
+}
+
+.corps_de_page {
+    background-color: rgb(2, 93, 30);
+    overflow:auto;
+    padding : 2vw;
+}
+
+.mot_de_la_redaction{
+    color : rgb(75, 169, 86);
+    background-color: rgb(3, 37, 13);
+    border-radius: 2vw;
+    padding : 3vw;
+}
+
+.mot_de_la_redaction p {
+    color : rgb(75, 169, 86);
 }
