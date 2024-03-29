@@ -15,3 +15,6 @@ def un_article(lh_number,article):
 
 # Pour accéder à l'acceuil d'une LH: ip/LH/"numéro de la LH genre LH1"
 #Pour un article de ce numéro: ip/LH/"numéro de la LH genre LH1"/"nom du fichier d'un article genre article_test"
+
+if __name__ == '__main__':
+    app.run(debug=False,port=80,host="0.0.0.0") #Lance l'appli
