@@ -18,7 +18,6 @@ def un_article(lh_number,article):
     '''Affiche un article stocké dans templates/lh_number/'''
     return render_template(f'{lh_number}/articles/{article}.html')
 
-
 # Pour accéder à l'accueil d'une LH: ip/LH/"numéro de la LH genre LH1"
 # Pour un article de ce numéro: ip/LH/"numéro de la LH genre LH1"/"nom du fichier d'un article genre article_test"
 

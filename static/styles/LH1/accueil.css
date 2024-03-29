@@ -1,117 +1,117 @@
-body{
-    background-color: black;
-    color: white ;
-    padding: 5vw;
+body {
+  background-color: black;
+  color: white;
+  padding: 5vw;
 }
 
 .haut_de_page {
-    display : grid;
-    grid-template-columns: 20% 80%;
-    padding : 20 px;
-    height : 10%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: 20 px;
+  height: 10%;
 }
 
 .haut_de_page #logo {
-    grid-column : 1;
+  grid-column: 1;
 }
 
-.haut_de_page #logo img{
-    width : 70%;
+.haut_de_page #logo img {
+  width: 70%;
 }
 
 .haut_de_page #text_accueil_LH {
-    grid-column : 2;
-    align-self: center;
-    font-size : 8vw;
+  grid-column: 2;
+  align-self: center;
+  font-size: 8vw;
 }
 nav {
-    margin : 0 auto;
-    position : sticky;
-    background: linear-gradient(rgb(3, 37, 13), rgb(2, 91, 19), rgb(3, 37, 13));
-    border-radius: 25px;
-    grid-column: 2;
-    color : rgb(75, 169, 86);
-    grid-row:1;
-    font-size : 1.8vw;
-    align-self: center;
+  margin: 0 auto;
+  position: sticky;
+  background: linear-gradient(rgb(3, 37, 13), rgb(2, 91, 19), rgb(3, 37, 13));
+  border-radius: 25px;
+  grid-column: 2;
+  color: rgb(75, 169, 86);
+  grid-row: 1;
+  font-size: 1.8vw;
+  align-self: center;
 }
 nav ul {
-    list-style-type : none;
+  list-style-type: none;
 }
 
 nav ul li {
-    float : left;
-    width: 33%;
-    text-align : center;
-    position: relative;
+  float: left;
+  width: 33%;
+  text-align: center;
+  position: relative;
 }
 
 nav ul::after {
-    content : "";
-    display : table;
-    clear : both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 nav a {
-    display : block;
-    text-decoration : none;
-    color : rgb(75, 169, 86);
-    border-bottom : 2px solid transparent;
-    padding :  10px 0px;
+  display: block;
+  text-decoration: none;
+  color: rgb(75, 169, 86);
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
 }
 
 nav a:hover {
-    color : rgb(133, 225, 147);
-    border-bottom :  2px solid rgb(133, 225, 147);
+  color: rgb(133, 225, 147);
+  border-bottom: 2px solid rgb(133, 225, 147);
 }
 
 .sous {
-    display : none;
-    box-shadow : 0px 1px 2px rgb(133, 225, 147);
-    background-color : rgb(133, 225, 147);
-    position : absolute;
-    width: 100%;
+  display: none;
+  box-shadow: 0px 1px 2px rgb(133, 225, 147);
+  background-color: rgb(133, 225, 147);
+  position: absolute;
+  width: 100%;
 }
 
-nav > ul li:hover .sous{
-    display : block;
+nav > ul li:hover .sous {
+  display: block;
 }
 
-.sous li{
-    float: none;
-    width : 100%;
-    text-align: left;
+.sous li {
+  float: none;
+  width: 100%;
+  text-align: left;
 }
 
 .sous a {
-    padding : 10px;
-    border-bottom : none;
+  padding: 10px;
+  border-bottom: none;
 }
 
 .sous a:hover {
-    border-bottom : none;
-    color : rgb(23, 55, 27);
+  border-bottom: none;
+  color: rgb(23, 55, 27);
 }
 
-.menu-ressources > a::after{
-    content : "▼";
+.menu-ressources > a::after {
+  content: "▼";
 }
 
 .corps_de_page {
-    background-color: rgb(2, 93, 30);
-    overflow:auto;
-    padding : 2vw;
-    color : rgb(133, 220, 143);
-    font-size: 1vw;
+  background-color: rgb(2, 93, 30);
+  overflow: auto;
+  padding: 2vw;
+  color: rgb(133, 220, 143);
+  font-size: 1vw;
 }
 
-.mot_de_la_redaction{
-    color : rgb(75, 169, 86);
-    background-color: rgb(3, 37, 13);
-    border-radius: 2vw;
-    padding : 2.3vw;
+.mot_de_la_redaction {
+  color: rgb(75, 169, 86);
+  background-color: rgb(3, 37, 13);
+  border-radius: 2vw;
+  padding: 2.3vw;
 }
 
 .mot_de_la_redaction p {
-    color : rgb(75, 169, 86);
+  color: rgb(75, 169, 86);
 }
