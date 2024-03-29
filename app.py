@@ -9,8 +9,8 @@ def favicon():
                                'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 @app.route('/LH/<lh_number>')
-def acceuil_lh(lh_number):
-    '''Renvoie la page d'acceuil d'une lh, stockée dans templates/lh_number/'''
+def accueil_lh(lh_number):
+    '''Renvoie la page d'accueil d'une lh, stockée dans templates/lh_number/'''
     return render_template(f'{lh_number}/articles/home.html')
 
 @app.route('/LH/<lh_number>/<article>')
@@ -19,8 +19,8 @@ def un_article(lh_number,article):
     return render_template(f'{lh_number}/articles/{article}.html')
 
 
-# Pour accéder à l'acceuil d'une LH: ip/LH/"numéro de la LH genre LH1"
-#Pour un article de ce numéro: ip/LH/"numéro de la LH genre LH1"/"nom du fichier d'un article genre article_test"
+# Pour accéder à l'accueil d'une LH: ip/LH/"numéro de la LH genre LH1"
+# Pour un article de ce numéro: ip/LH/"numéro de la LH genre LH1"/"nom du fichier d'un article genre article_test"
 
 if __name__ == '__main__':
-    app.run(debug=False,port=80,host="0.0.0.0") #Lance l'appli
+    app.run(debug=False,port=80,host="0.0.0.0") # Lance l'appli

@@ -3,6 +3,7 @@ body{
     color: white ;
     padding: 5vw;
 }
+
 .haut_de_page {
     display : grid;
     grid-template-columns: 20% 80%;
@@ -18,7 +19,7 @@ body{
     width : 70%;
 }
 
-.haut_de_page #text_acceuil_LH {
+.haut_de_page #text_accueil_LH {
     grid-column : 2;
     align-self: center;
     font-size : 8vw;
