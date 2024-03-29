@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white ;
+}
+.haut_de_page {
+    display : grid;
+    grid-template-columns: 20% 80%;
+    padding : 20 px;
+    height : 10%;
+}
+
+.haut_de_page #logo {
+    grid-column : 1;
+}
+
+.haut_de_page #logo img{
+    width : 70%;
+}
+
+.haut_de_page #text_acceuil_LH {
+    grid-column : 2;
+    align-self: center;
+    font-size : 8vw;
+}
