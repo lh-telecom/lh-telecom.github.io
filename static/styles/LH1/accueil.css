@@ -1,13 +1,13 @@
 body {
   background-color: black;
   color: white;
-  padding: 5vw;
+  /* padding: 5vw; */
 }
 
 .haut_de_page {
   display: grid;
   grid-template-columns: 20% 80%;
-  padding: 20 px;
+  padding: 20px;
   height: 10%;
 }
 
@@ -103,6 +103,7 @@ nav > ul li:hover .sous {
   padding: 2vw;
   color: rgb(133, 220, 143);
   font-size: 1vw;
+  border-radius: 2vw;
 }
 
 .mot_de_la_redaction {
@@ -114,4 +115,19 @@ nav > ul li:hover .sous {
 
 .mot_de_la_redaction p {
   color: rgb(75, 169, 86);
+}
+
+.grille_page {
+  grid-template-areas: "left body right";
+  grid-template-columns: 1fr 4fr 1fr;
+  display: grid;
+}
+
+.grille_body {
+  grid-area: body;
+}
+
+.large_element_hors_grille {
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
