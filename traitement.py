@@ -85,6 +85,35 @@ def genere_article(n_lh, titre_lh, name, autres_articles):
         file.write(html)
 
 
+MD_404 = """
+Le contenu que vous recherchez n'existe pas! (encore)
+
+[Revenir à la page d'accueil](/home.html)
+"""
+
+def genere_404():
+    html_generator = Doc()
+    doc, tag, text = html_generator.tagtext()
+
+    with tag('html'):
+        header(html_generator, "La LH")
+        with tag("body"):
+            genere_debut_page(html_generator, "La LH")
+
+            with tag("div", klass="grille_page"):
+                with tag("div", klass="corps_de_page grille_body"):
+                    with tag("h1"):
+                        text("Vous etes perdus !")
+                    with tag("div", klass="mot_de_la_redaction"):
+                        doc.asis(markdown(MD_404))
+
+
+    html = doc.getvalue()
+
+    # genere le html dans "dist"
+    with open(f"static/404.html", "w",encoding='utf-8') as file:
+        file.write(html)
+
 def genere_edition(n_lh, tire_lh, articles):
     fichier_mot_redaction = open(f"articles/{n_lh}/README.md", encoding="utf-8")
     mot_redaction = markdown(fichier_mot_redaction.read())
@@ -104,16 +133,18 @@ def genere_edition(n_lh, tire_lh, articles):
                     with tag("h1"):
                         text("Le mot de la redaction")
                     with tag("div", klass="mot_de_la_redaction"):
-                        doc.asis(markdown(str(mot_redaction)))
+                        doc.asis(mot_redaction)
 
     html = doc.getvalue()
 
-    # genere le html dans "dist"
+    # genere le html dans "static"
     with open(f"static/{n_lh}/home.html", "w",encoding='utf-8') as file:
         file.write(html)
 
 
 if __name__ == "__main__":
+    genere_404()
+
     for (n_lh, titre_lh) in [("LH1", "LH1 - LH d'outre-tombe")]:
 
         directory = f"articles/{n_lh}"
@@ -126,5 +157,4 @@ if __name__ == "__main__":
 
         for name in article_names:
             genere_article(n_lh, titre_lh, name, articles)
-
 
