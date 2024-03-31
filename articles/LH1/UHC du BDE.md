@@ -24,7 +24,7 @@ Au final, 3 joueurs se sont démarqués:
 2. Tayaress21, qui s'est battu jusqu'au bout avec 1 kill
 3. Adrien13720 qui a obtenu le plus de kill (4) dont le first blood sans diamant!
 
-> Image du combat final
+<img src='/static/LH1/images/uhc_final_battle.png'>
 
 ## Mais surtout du coup, quelles listes se sont démarquées????
 
@@ -67,6 +67,6 @@ Allez donc voter pour ces deux listes en fonction de vos préférences et d'à q
 
 J'espère que cet évènement vous aura plus malgré les légers soucis techniques au début. On essayera de refaire des évènements du genre et j'espère que vous viendrez nombreux!!
 
-> Image de fin
+<img src='/static/LH1/images/uhc_ending.png'>
 
 -Nicolas Besson
