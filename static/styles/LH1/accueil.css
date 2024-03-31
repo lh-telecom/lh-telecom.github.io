@@ -137,6 +137,14 @@ nav > ul li:hover .sous {
   display: grid;
 }
 
+@media (max-width: 1200px) {
+  .grille_page {
+    grid-template-areas: "left body right";
+    grid-template-columns: 1fr 8fr 1fr;
+    display: grid;
+  }
+}
+
 .grille_body {
   grid-area: body;
 }
