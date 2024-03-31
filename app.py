@@ -1,5 +1,5 @@
 import os
-from flask import Flask, send_from_directory
+from flask import Flask, send_from_directory, abort
 
 app = Flask(__name__)
 
@@ -24,30 +24,28 @@ def accueil_lh(lh_number):
     # on décompose le chemin d'accès en deux : le chemin du HTML à renvoyer, et le chemin complet pour savoir si le fichier existe.
     path = f'{lh_number}/home.html'
     full_path = os.path.join(app.root_path, 'static', path)
-    if os.path.exists(full_path):
-        return app.send_static_file(path)
-    else: # techniquement c'est pas nécessaire de mettre else mais bon
-        return app.send_static_file('/404.html'), 404
+    if not os.path.exists(full_path):
+        abort(404)
+    return app.send_static_file(path)
+    
 
 @app.route('/LH/<lh_number>/<article>.html')
 def un_article(lh_number,article):
     '''Affiche un article stocké dans templates/lh_number/'''
     path = f'{lh_number}/articles/{article}.html'
     full_path = os.path.join(app.root_path, 'static', path)
-    if os.path.exists(full_path):
-        return app.send_static_file(path)
-    else: # techniquement c'est pas nécessaire de mettre else mais bon
-        return app.send_static_file('/404.html'), 404
+    if not os.path.exists(full_path):
+        abort(404)
+    return app.send_static_file(path)
 
 @app.route('/LH/<lh_number>/<article>/')
 def un_article_htmlless(lh_number,article):
     '''Affiche un article stocké dans templates/lh_number/'''
     path = f'{lh_number}/articles/{article}.html'
     full_path = os.path.join(app.root_path, 'static', path)
-    if os.path.exists(full_path):
-        return app.send_static_file(path)
-    else: # techniquement c'est pas nécessaire de mettre else mais bon
-        return app.send_static_file('/404.html'), 404
+    if not os.path.exists(full_path):
+        abort(404)
+    return app.send_static_file(path)
 
 # Pour accéder à l'accueil d'une LH: ip/LH/"numéro de la LH genre LH1"
 # Pour un article de ce numéro: ip/LH/"numéro de la LH genre LH1"/"nom du fichier d'un article genre article_test"
