@@ -71,7 +71,7 @@ for art in os.listdir(directory):
                         with tag("img", src="../../../static/Logo_LH_Necro.png"):
                             pass
                     with tag("div", id="text_accueil_LH"):
-                        text("La LH XXX")
+                        text("LH1 - LH d'outre-tombe")
 
             with tag("div", klass="large_element_hors_grille"):
                 navbar(html_generator)
