@@ -25,6 +25,7 @@ Pour mener à bien votre opération de @7HFQQCv%tc7RG@NEm98%IuNmy8D$v5Ro3pFG$, r
 1. Mélanger le _FTFCJ474ZT_ avec le __ç7-gliHJ_ à 90F°.  
 2. Mettez la solution obtenue dans votre marmite, elle servira de base pour notre préparation.  
 3. Utilisez la pelle tout d'abord pour :  
+
     1. Récupérer des _ujbM98UGLK0)ùm66/_ du jardin de vos voisins(faut qu'ils partagent tout de même! Ils ne sont pas les seuls KLHOIH%P**! de la rue!)  
     2. Frapper dessus avec votre pelle, puis ajoutez la bouillie obtenue à la marmite  
 4. Laissez le tout mijoter à hh^£5 F° pendant 3 jours, et profitez en pour récupérer de la bave de ioqj$PIGOTDT435 lors d'une pleine lune(ou au moins quart de lune, votre préparation n'aura pas assez de puissance sinon!)  
