@@ -50,7 +50,7 @@ for art in os.listdir(directory):
                     with tag('ul', klass="sous"):
                         for (url, nom) in articles:
                             with tag("li"):
-                                with tag("a", href=url):
+                                with tag("a", href=url[:-5]):
                                     text(nom)
                 with tag("li"):
                     with tag("a", href="evenements.html"):
