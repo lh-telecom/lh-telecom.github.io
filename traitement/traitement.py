@@ -98,7 +98,7 @@ html_generator = Doc()
 #Fin option 1
 
 # #Option 2: Markdown en doctstring
-article= open("acceuil/mot.md", encoding="utf-8")
+article= open("accueil/mot.md", encoding="utf-8")
 TEXTE_MARKDOWN= markdown(article.read())
 
 HTML=str(TEXTE_MARKDOWN)
@@ -132,7 +132,7 @@ def navbar(html_generator):
                 with tag('ul', klass="sous"):
                     for (url, nom) in articles:
                         with tag("li"):
-                            with tag("a", href=url):
+                            with tag("a", href=url[:-5]):
                                 text(nom)
             with tag("li"):
                 with tag("a", href="evenements.html"):
