@@ -53,4 +53,8 @@ Oserais-tu m'abandonner à mon sort? Vraiment?
 De toute manière, tu auras beau essayer, je ne te laisserais pas t'en sortir comme ça  
 Je te suivrais  
 Je te traquerais  
-Tu ne pourras m'échapper 
+Tu ne pourras m'échapper  
+
+Signé : 
+<strike>VITIçèhm=àir5468@('_~@idsf</strike>  
+**La LH**
