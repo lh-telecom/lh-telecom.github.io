@@ -50,7 +50,7 @@ for art in os.listdir(directory):
                     with tag('ul', klass="sous"):
                         for (url, nom) in articles:
                             with tag("li"):
-                                with tag("a", href=url[:-5]):
+                                with tag("a", href=url):
                                     text(nom)
                 with tag("li"):
                     with tag("a", href="evenements.html"):
@@ -102,7 +102,6 @@ article= open("acceuil/mot.md", encoding="utf-8")
 TEXTE_MARKDOWN= markdown(article.read())
 
 HTML=str(TEXTE_MARKDOWN)
-print(HTML)
 # #Fin option 2
 
 TEMPLATE_VERSION=1
