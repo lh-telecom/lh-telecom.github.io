@@ -1,6 +1,6 @@
 ## L'UHC du BDE en résumé
 
-Entre 16 et 18h ce dimanche c'était l'UHC du BDE sur Minecraft 1.20.4 avec une technique organisée par Nicolas Besson sous l'impulsion d'Arnaud Capitan (Bedflix) , Matteo Delfour (Urgence Bedicale) et Thomas Soubise (Soubise Thomas pour les intimes).
+Entre 16 et 18h ce dimanche c'était l'UHC du BDE sur Minecraft 1.20.4 avec une technique organisée par Nicolas Besson sous l'impulsion d'Arnaud Capitan (Bedflix) , Matteo Delfour (Urgence Bedicale) et Thomas Soubise (Urgence Bedicale).
 
 ## Mais un UHC c'est quoi?
 
@@ -38,35 +38,30 @@ Allez donc voter pour ces deux listes en fonction de vos préférences et d'à q
 
 ### Mentions Honorables (succès de tier 3 et trucs rigolos):
 
-Hyez pour avoir été le premier a construire le miroir d'eau au spawn
-
-Neviv qui a accepté d'avoir Nausée et Speed 3 pour se battre (et surtout pour fuir) et avoir gentiment convier les gens à venir se poutrer en 0 0
-
-Adrien13720 pour son first blood sans avoir touché de diamant
-
-Skinbow pour avoir été le seul à manger un pufferfish (ça valait le coup d'essayer mais le food asia avait pas eu de livraison depuis une semaine)
+- Hyez pour avoir été le premier a construire le miroir d'eau au spawn
+- Neviv qui a accepté d'avoir Nausée et Speed 3 pour se battre (et surtout pour fuir) et avoir gentiment convier les gens à venir se poutrer en 0 0
+- Adrien13720 pour son first blood sans avoir touché de diamant
+- Skinbow pour avoir été le seul à manger un pufferfish (ça valait le coup d'essayer mais le food asia avait pas eu de livraison depuis une semaine)
 
 ## Résumé des morts sauce logs
 
-```
-[14:58:18] [Server thread/INFO]: kiIIian44 fell from a high place
-[15:09:34] [Server thread/INFO]: oettam21 was slain by Adrien137
-[15:13:30] [Server thread/INFO]: Psycho_bz left the confines of this world
-[15:18:54] [Server thread/INFO]: Hyez was slain by Neviv
-[15:27:13] [Server thread/INFO]: noprotox hit the ground too hard
-[15:31:58] [Server thread/INFO]: ToggleStraight was slain by Piglin
-[15:36:22] [Server thread/INFO]: Quech4 was slain by Emilius12e
-[15:37:44] [Server thread/INFO]: Neviv was shot by Tayaress21
-[15:39:27] [Server thread/INFO]: StyxLethe was slain by defaultlight
-[15:40:28] [Server thread/INFO]: TheTotor42 was slain by Adrien13720
-[15:40:37] [Server thread/INFO]: Skinbow was slain by Adrien13720
-[15:40:47] [Server thread/INFO]: Amr0th_ was slain by defaultlight
-[15:40:49] [Server thread/INFO]: Emilius12e was shot by nbdu92
-[15:42:05] [Server thread/INFO]: Euqs_ was slain by Tayaress21
-[15:42:53] [Server thread/INFO]: defaultlight was slain by Adrien13720
-[15:45:06] [Server thread/INFO]: Adrien13720 was slain by nbdu92
-[15:46:35] [Server thread/INFO]: Tayaress21 was slain by nbdu92
-```
+- [14:58:18] [Server thread/INFO]: kiIIian44 fell from a high place
+- [15:09:34] [Server thread/INFO]: oettam21 was slain by Adrien137
+- [15:13:30] [Server thread/INFO]: Psycho_bz left the confines of this world
+- [15:18:54] [Server thread/INFO]: Hyez was slain by Neviv
+- [15:27:13] [Server thread/INFO]: noprotox hit the ground too hard
+- [15:31:58] [Server thread/INFO]: ToggleStraight was slain by Piglin
+- [15:36:22] [Server thread/INFO]: Quech4 was slain by Emilius12e
+- [15:37:44] [Server thread/INFO]: Neviv was shot by Tayaress21
+- [15:39:27] [Server thread/INFO]: StyxLethe was slain by defaultlight
+- [15:40:28] [Server thread/INFO]: TheTotor42 was slain by Adrien13720
+- [15:40:37] [Server thread/INFO]: Skinbow was slain by Adrien13720
+- [15:40:47] [Server thread/INFO]: Amr0th\_ was slain by defaultlight
+- [15:40:49] [Server thread/INFO]: Emilius12e was shot by nbdu92
+- [15:42:05] [Server thread/INFO]: Euqs\_ was slain by Tayaress21
+- [15:42:53] [Server thread/INFO]: defaultlight was slain by Adrien13720
+- [15:45:06] [Server thread/INFO]: Adrien13720 was slain by nbdu92
+- [15:46:35] [Server thread/INFO]: Tayaress21 was slain by nbdu92
 
 ## Le mot de la fin
 

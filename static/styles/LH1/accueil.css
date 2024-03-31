@@ -22,7 +22,7 @@ body {
 .haut_de_page #text_accueil_LH {
   grid-column: 2;
   align-self: center;
-  font-size: 8vw;
+  font-size: 5vw;
 }
 nav {
   margin: 0 auto;
@@ -147,6 +147,10 @@ nav > ul li:hover .sous {
 
 .grille_body {
   grid-area: body;
+}
+
+.grille_body img {
+  width: 100%;
 }
 
 .large_element_hors_grille {
