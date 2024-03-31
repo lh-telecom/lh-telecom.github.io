@@ -1,7 +1,4 @@
-from yattag import Doc
 from markdown import markdown
-
-doc, tag, text = Doc().tagtext()
 
 #Option 1: Markdown en fichier
 # article1 = open("PLANNING.md")
@@ -71,9 +68,9 @@ TITRE="Test d'article sous format planning"
 
 AFTER_TITRE='''<div class="mot_de_la_redaction">'''
 
-with open(f'./templates/V{TEMPLATE_VERSION}/header.txt','r') as header:
+with open(f'./templates/V{TEMPLATE_VERSION}/header.txt','r',encoding='UTF-8') as header:
     HEADER=header.read()
-with open(f'./templates/V{TEMPLATE_VERSION}/footer.txt','r') as footer:
+with open(f'./templates/V{TEMPLATE_VERSION}/footer.txt','r',encoding='UTF-8') as footer:
     FOOTER=footer.read()
 
 # genere le html dans "dist"
