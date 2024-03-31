@@ -6,7 +6,6 @@ directory = 'articles/LH1/'
 #liste des articles avec les liens pour y accéder
 articles = [ ("/LH/LH1/"+a.split(".")[0]+".html", a.split(".")[0]) for a in os.listdir(directory) ]
 
-
 for art in os.listdir(directory):
     if not os.path.exists("static/LH1/articles/"+art.split(".")[0]+".html"): ##Ne recrée pas un html déjà existant
         html_generator = Doc()
