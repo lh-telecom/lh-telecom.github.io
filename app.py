@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.errorhandler(404)
 def gerer_erreur(e):
     '''Quelle page renvoyer pour un message d'erreur'''
-    return app.send_static_file('/404.html'), 404
+    return app.send_static_file('404.html'), 404
 
 @app.route('/')
 @app.route('/home.html')
