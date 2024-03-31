@@ -106,7 +106,7 @@ def genere_404():
                         text("Vous ")
                         with tag("del"):
                             text("avez")
-                        text(" êtes perdus !")
+                        text(" êtes perdu·e !")
                     with tag("div", klass="mot_de_la_redaction"):
                         doc.asis(markdown(MD_404))
 
