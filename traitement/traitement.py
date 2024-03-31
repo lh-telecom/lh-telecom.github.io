@@ -20,6 +20,7 @@ for art in os.listdir(directory):
     TEXTE_MARKDOWN= markdown(article.read())
 
     HTML=markdown(str(TEXTE_MARKDOWN))
+    print(HTML)
     # #Fin option 2
 
     TEMPLATE_VERSION=1
