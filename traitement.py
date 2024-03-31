@@ -103,7 +103,10 @@ def genere_404():
             with tag("div", klass="grille_page"):
                 with tag("div", klass="corps_de_page grille_body"):
                     with tag("h1"):
-                        text("Vous etes perdus !")
+                        text("Vous ")
+                        with tag("del"):
+                            text("avez")
+                        text(" êtes perdus !")
                     with tag("div", klass="mot_de_la_redaction"):
                         doc.asis(markdown(MD_404))
 
@@ -131,7 +134,7 @@ def genere_edition(n_lh, tire_lh, articles):
             with tag("div", klass="grille_page"):
                 with tag("div", klass="corps_de_page grille_body"):
                     with tag("h1"):
-                        text("Le mot de la redaction")
+                        text("Le mot de la rédaction")
                     with tag("div", klass="mot_de_la_redaction"):
                         doc.asis(mot_redaction)
 
