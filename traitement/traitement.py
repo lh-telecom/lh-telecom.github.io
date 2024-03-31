@@ -97,16 +97,17 @@ def navbar(html_generator):
             with tag("li", klass="menu"):
                 with tag("a"):
                     text("les articles de la semaine")
-                for (url, nom) in articles:
-                    with tag("li"):
-                        with tag("a", href=url):
-                            text(nom)
-        with tag("li"):
-            with tag("a", href="evenements.html"):
-                text("Les derniers numéros")
-        with tag("li"):
-            with tag("a", href="club.html"):
-                text("Find your LH !")
+                with tag('ul', klass="sous"):
+                    for (url, nom) in articles:
+                        with tag("li"):
+                            with tag("a", href=url):
+                                text(nom)
+            with tag("li"):
+                with tag("a", href="evenements.html"):
+                    text("Les derniers numéros")
+            with tag("li"):
+                with tag("a", href="club.html"):
+                    text("Find your LH !")
 
 
 doc, tag, text = html_generator.tagtext()
@@ -115,7 +116,7 @@ with tag('html'):
     header(html_generator, "LH1 - LH d'outre-tombe")
     with tag("body"):
         with tag("div", klass="grille_page"):
-            with tag("div", klass="haut_de_page_grille_body"):
+            with tag("div", klass="haut_de_page grille_body"):
                 with tag("a", href="home.html", id="logo"):
                     with tag("img", src="../../../static/Logo_LH_Necro.png"):
                         pass
@@ -130,8 +131,7 @@ with tag('html'):
                 with tag("h1"):
                     text(TITRE)
                 with tag("div", klass="mot_de_la_redaction"):
-                    pass
-                doc.asis(markdown(str(TEXTE_MARKDOWN)))
+                    doc.asis(markdown(str(TEXTE_MARKDOWN)))
 
 html = doc.getvalue()
 
