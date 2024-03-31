@@ -22,16 +22,20 @@ Réunissez les ingrédients suivants :
 
 ## Les instructions
 Pour mener à bien votre opération de @7HFQQCv%tc7RG@NEm98%IuNmy8D$v5Ro3pFG$, respectez bien les étapes suivantes. Si il en manque, même qu'une, cela pourrait amener des nombreux dangers sur le pas de votre porte...  
-1. Mélanger le _FTFCJ474ZT_ avec le __ç7-gliHJ_ à 90F°.  
-2. Mettez la solution obtenue dans votre marmite, elle servira de base pour notre préparation.  
-3. Utilisez la pelle tout d'abord pour :  
+<ul>
+    <li>Mélanger le _FTFCJ474ZT_ avec le __ç7-gliHJ_ à 90F°.  </li>
+    <li>Mettez la solution obtenue dans votre marmite, elle servira de base pour notre préparation.  </li>
+    <li>Utilisez la pelle tout d'abord pour :  
+    <ul>
+        <li>Récupérer des _ujbM98UGLK0)ùm66/_ du jardin de vos voisins(faut qu'ils partagent tout de même! Ils ne sont pas les seuls KLHOIH%P**! de la rue!)   </li>
+        <li>Frapper dessus avec votre pelle, puis ajoutez la bouillie obtenue à la marmite    </li>
+    </ul> 
+    </li>
+    <li>Laissez le tout mijoter à hh^£5 F° pendant 3 jours, et profitez en pour récupérer de la bave de ioqj$PIGOTDT435 lors d'une pleine lune(ou au moins quart de lune, votre préparation n'aura pas assez de puissance sinon!)   </li>
+    <li>Une fois cela fait, réunissez-vous avec vos proches et pensez tous à ce que vous voulez récussiter. Incantez bien évidemment les paroles de YV943CZ4C75IUiùn,t568t6ergjpypçatta que vous devez connaître par coeur si vous avez bien fait vos devoirs.   </li>
+    <li>Une fois cela fait, réunissez-vous avec vos proches et pensez tous à ce que vous voulez récussiter. Incantez bien évidemment les paroles de YV943CZ4C75IUiùn,Versez votre mixture sur la chose, et attendez le lendemain matin!    </li>
+</ul>
 
-    1. Récupérer des _ujbM98UGLK0)ùm66/_ du jardin de vos voisins(faut qu'ils partagent tout de même! Ils ne sont pas les seuls KLHOIH%P**! de la rue!)  
-    2. Frapper dessus avec votre pelle, puis ajoutez la bouillie obtenue à la marmite  
-4. Laissez le tout mijoter à hh^£5 F° pendant 3 jours, et profitez en pour récupérer de la bave de ioqj$PIGOTDT435 lors d'une pleine lune(ou au moins quart de lune, votre préparation n'aura pas assez de puissance sinon!)  
-5. Une fois cela fait, réunissez-vous avec vos proches et pensez tous à ce que vous voulez récussiter. Incantez bien évidemment les paroles de YV943CZ4C75IUiùn,t568t6er
-gjpypçatta que vous devez connaître par coeur si vous avez bien fait vos devoirs.  
-6. Versez votre mixture sur la chose, et attendez le lendemain matin!  
 
 ## Dans le cas d'une erreur...
 NE SORTEZ PLUS DE CHEZ VOUS  
