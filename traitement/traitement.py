@@ -16,7 +16,7 @@ for art in os.listdir(directory):
 #Fin option 1
 
 # #Option 2: Markdown en doctstring
-    article= open(directory+"/"+art)
+    article= open(directory+"/"+art, encoding="utf-8")
     TEXTE_MARKDOWN= markdown(article.read())
 
     HTML=markdown(str(TEXTE_MARKDOWN))
@@ -86,5 +86,5 @@ for art in os.listdir(directory):
     html = doc.getvalue()
 
     # genere le html dans "dist"
-    with open("../templates/LH1/articles/"+art.split(".")[0]+".html", "w",encoding='UTF-8') as file:
+    with open("../templates/LH1/articles/"+art.split(".")[0]+".html", "w",encoding='utf-8') as file:
         file.write(html)
