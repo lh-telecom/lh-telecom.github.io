@@ -1,5 +1,8 @@
 from markdown import markdown
 
+
+html_generator = Doc()
+
 #Option 1: Markdown en fichier
 # article1 = open("PLANNING.md")
 # HTML = markdown(article1.read())
@@ -66,17 +69,71 @@ TEMPLATE_VERSION=1
 
 TITRE="Test d'article sous format planning"
 
-AFTER_TITRE='''<div class="mot_de_la_redaction">'''
+articles = [
+    ("tricot", "article 1"),
+    ("crochet", "article 2"),
+    ("couture", "article 3"),
+    ("tutos", "article 4"),
+]
 
-with open(f'./templates/V{TEMPLATE_VERSION}/header.txt','r',encoding='UTF-8') as header:
-    HEADER=header.read()
-with open(f'./templates/V{TEMPLATE_VERSION}/footer.txt','r',encoding='UTF-8') as footer:
-    FOOTER=footer.read()
+
+def header(html_generator, titre):
+    doc, tag, text = html_generator.tagtext()
+    with tag('head'):
+        with tag('meta', charset="utf-8"):
+            pass
+        with tag('title', id='titre'):
+            text(titre)
+        with tag("link", rel="icon", type="image/x-icon", href="/static/favicon_dead.ico"):
+            pass
+        with tag("link", href="../../../static/styles/LH1/accueil.css", type="text/css", rel="stylesheet"):
+            pass
+
+def navbar(html_generator):
+    doc, tag, text = html_generator.tagtext()
+    with tag("nav"):
+        with tag("ul"):
+            with tag("li", klass="menu"):
+                with tag("a"):
+                    text("les articles de la semaine")
+                for (url, nom) in articles:
+                    with tag("li"):
+                        with tag("a", href=url):
+                            text(nom)
+        with tag("li"):
+            with tag("a", href="evenements.html"):
+                text("Les derniers numéros")
+        with tag("li"):
+            with tag("a", href="club.html"):
+                text("Find your LH !")
+
+
+doc, tag, text = html_generator.tagtext()
+
+with tag('html'):
+    header(html_generator, "LH1 - LH d'outre-tombe")
+    with tag("body"):
+        with tag("div", klass="grille_page"):
+            with tag("div", klass="haut_de_page_grille_body"):
+                with tag("a", href="home.html", id="logo"):
+                    with tag("img", src="../../../static/Logo_LH_Necro.png"):
+                        pass
+                with tag("div", id="text_accueil_LH"):
+                    text("La LH XXX")
+
+        with tag("div", klass="large_element_hors_grille"):
+            navbar(html_generator)
+
+        with tag("div", klass="grille_page"):
+            with tag("div", klass="corps_de_page grille_body"):
+                with tag("h1"):
+                    text(TITRE)
+                with tag("div", klass="mot_de_la_redaction"):
+                    pass
+                doc.asis(markdown(str(TEXTE_MARKDOWN)))
+
+html = doc.getvalue()
 
 # genere le html dans "dist"
-with open("article1.html", "w",encoding='UTF-8') as file:
-    file.write(HEADER)
-    file.write(f'''<h1>{TITRE}</h1>
-               {AFTER_TITRE}''')
-    file.write(HTML)
-    file.write(FOOTER)
+with open("lh.html", "w",encoding='UTF-8') as file:
+    file.write(html)
