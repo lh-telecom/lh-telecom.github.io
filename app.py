@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.errorhandler(404)
 def gerer_erreur(e):
     '''Quelle page renvoyer pour un message d'erreur'''
-    return app.send_static_file('/404.html'), 404
+    return app.send_static_file('404.html'), 404
 
 @app.route('/')
 @app.route('/home.html')
@@ -31,6 +31,16 @@ def accueil_lh(lh_number):
 
 @app.route('/LH/<lh_number>/<article>.html')
 def un_article(lh_number,article):
+    '''Affiche un article stocké dans templates/lh_number/'''
+    path = f'{lh_number}/articles/{article}.html'
+    full_path = os.path.join(app.root_path, 'static', path)
+    if os.path.exists(full_path):
+        return app.send_static_file(path)
+    else: # techniquement c'est pas nécessaire de mettre else mais bon
+        return app.send_static_file('/404.html'), 404
+
+@app.route('/LH/<lh_number>/<article>/')
+def un_article_htmlless(lh_number,article):
     '''Affiche un article stocké dans templates/lh_number/'''
     path = f'{lh_number}/articles/{article}.html'
     full_path = os.path.join(app.root_path, 'static', path)
