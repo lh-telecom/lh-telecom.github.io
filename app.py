@@ -39,6 +39,16 @@ def un_article(lh_number,article):
     else: # techniquement c'est pas nécessaire de mettre else mais bon
         return app.send_static_file('/404.html'), 404
 
+@app.route('/LH/<lh_number>/<article>/')
+def un_article_htmlless(lh_number,article):
+    '''Affiche un article stocké dans templates/lh_number/'''
+    path = f'{lh_number}/articles/{article}.html'
+    full_path = os.path.join(app.root_path, 'static', path)
+    if os.path.exists(full_path):
+        return app.send_static_file(path)
+    else: # techniquement c'est pas nécessaire de mettre else mais bon
+        return app.send_static_file('/404.html'), 404
+
 # Pour accéder à l'accueil d'une LH: ip/LH/"numéro de la LH genre LH1"
 # Pour un article de ce numéro: ip/LH/"numéro de la LH genre LH1"/"nom du fichier d'un article genre article_test"
 
