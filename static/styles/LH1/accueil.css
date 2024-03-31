@@ -35,6 +35,20 @@ nav {
   font-size: 1.8vw;
   align-self: center;
 }
+
+@media (max-width: 1200px) {
+  nav {
+    margin: 0 auto;
+    position: sticky;
+    background: linear-gradient(rgb(3, 37, 13), rgb(2, 91, 19), rgb(3, 37, 13));
+    border-radius: 25px;
+    grid-column: 2;
+    color: rgb(75, 169, 86);
+    grid-row: 1;
+    font-size: 3vw;
+    align-self: center;
+  }
+}
 nav ul {
   list-style-type: none;
 }
