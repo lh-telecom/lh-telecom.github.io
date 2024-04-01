@@ -50,6 +50,7 @@ Skinbow pour avoir été le seul à manger un pufferfish (ça valait le coup d'e
 
 ## Résumé des morts sauce logs
 
+<pre>
 [14:58:18] [Server thread/INFO]: kiIIian44 fell from a high place
 [15:09:34] [Server thread/INFO]: oettam21 was slain by Adrien137
 [15:13:30] [Server thread/INFO]: Psycho*bz left the confines of this world
@@ -67,6 +68,7 @@ Skinbow pour avoir été le seul à manger un pufferfish (ça valait le coup d'e
 [15:42:53] [Server thread/INFO]: defaultlight was slain by Adrien13720
 [15:45:06] [Server thread/INFO]: Adrien13720 was slain by nbdu92
 [15:46:35] [Server thread/INFO]: Tayaress21 was slain by nbdu92
+</pre>
 
 ## Le mot de la fin
 
