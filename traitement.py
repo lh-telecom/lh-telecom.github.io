@@ -16,7 +16,7 @@ def header(html_generator, titre):
 
 
 LOGOS = {
-        "televerset": "/static/logo_televerset_dead.svg"
+        "Téléverset": "/static/logo_televerset_dead.svg"
 }
 
 def navbar_entry(html_generator, nom, url):
