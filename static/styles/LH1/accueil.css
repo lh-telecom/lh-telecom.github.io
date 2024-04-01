@@ -157,3 +157,12 @@ nav > ul li:hover .sous {
   padding-left: 2vw;
   padding-right: 2vw;
 }
+
+
+/* 
+ * Ajouter de la marge entre chaque meme
+ */
+.corps_de_page img {
+    margin: 10%;
+    width: 80%;
+}
