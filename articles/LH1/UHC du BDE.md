@@ -26,7 +26,7 @@ Au final, 3 joueurs se sont démarqués:
 2. Tayaress21, qui s'est battu jusqu'au bout avec 1 kill
 3. Adrien13720 qui a obtenu le plus de kill (4) dont le first blood sans diamant!
 
-<img src='/static/LH1/images/uhc_final_battle.png'>
+<img src='/LH1/images/uhc_final_battle.png'>
 
 ## Mais surtout du coup, quelles listes se sont démarquées????
 
@@ -72,6 +72,6 @@ Skinbow pour avoir été le seul à manger un pufferfish (ça valait le coup d'e
 
 J'espère que cet évènement vous aura plus malgré les légers soucis techniques au début. On essayera de refaire des évènements du genre et j'espère que vous viendrez nombreux!!
 
-<img src='/static/LH1/images/uhc_ending.png'>
+<img src='/LH1/images/uhc_ending.png'>
 
 <div style='text-align:right'>-Nicolas Besson</div>

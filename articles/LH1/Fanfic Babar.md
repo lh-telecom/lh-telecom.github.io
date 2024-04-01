@@ -14,7 +14,7 @@ Une goutte tombe sur lui. Où ça sur lui ? Il n'en sait rien. Un discours d'Hid
 
 
 
-![Babar PNG](/static/LH1/images/fanfic_babar.png)
+![Babar PNG](/LH1/images/fanfic_babar.png)
 
 ---
 
@@ -28,7 +28,7 @@ Ils ne s'arrêtent pas. Shrek avait une migraine. Une **GROSSE** migraine. Les r
 
 Shrek n'est plus qu'une flaque de son sphérique qui résonne sans jamais perdre son intensité. Sa TF n'est qu'un pauvre petit Dirac à une fréquence inaudible, même pour la plus vigoureuse des chauves-souris.
 
-![Shrek PNG](/static/LH1/images/fanfic_shrek.png)
+![Shrek PNG](/LH1/images/fanfic_shrek.png)
 
 ---
 
@@ -36,12 +36,12 @@ Shrek n'est plus qu'une flaque de son sphérique qui résonne sans jamais perdre
 
 Qui est-il ? Tout le monde le sait, sauf lui. Ou va-t-il ? Parnulle et Toutpart. Pourquoi ? Il ne se posera jamais la question. Il constate que c'est comme ça. Et c'est tout.
 
-![Sonic PNG](/static/LH1/images/fanfic_sonic.png)
+![Sonic PNG](/LH1/images/fanfic_sonic.png)
 
 ---
 
 Soudain, une étincelle. Les trois protagonistes sont foudroyés par le bas, et commencent à s'élever. De la saleté commence à s"accumuler autour de leurs corps. Lentement, ils percent les roches, et comme un panache de magma prêt à jaillir des entrailles de la Terre... leurs têtes poussent le sol qui se bombe et se rompt. Tous les trois s'exhument et se retrouvent face à face. La scène est macabre...
 
-![Trio PNG](/static/LH1/images/fanfic_trio.png)
+![Trio PNG](/LH1/images/fanfic_trio.png)
 
 « Ça fait longtemps... » s'expriment-ils tous en cœur.
