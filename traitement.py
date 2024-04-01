@@ -9,9 +9,9 @@ def header(html_generator, titre):
             pass
         with tag('title', id='titre'):
             text(titre)
-        with tag("link", rel="icon", type="image/x-icon", href="/static/favicon_dead.ico"):
+        with tag("link", rel="icon", type="image/x-icon", href="/LH/favicon_dead.ico"):
             pass
-        with tag("link", href="/static/styles/LH1/accueil.css", type="text/css", rel="stylesheet"):
+        with tag("link", href="/LH/styles/LH1/accueil.css", type="text/css", rel="stylesheet"):
             pass
 
 
@@ -41,8 +41,8 @@ def genere_debut_page(html_generator, titre_lh):
     doc, tag, text = html_generator.tagtext()
     with tag("div", klass="grille_page"):
         with tag("div", klass="haut_de_page grille_body"):
-            with tag("a", href="/home.html", id="logo"):
-                with tag("img", src="/static/Logo_LH_Necro.png"):
+            with tag("a", href="/index.html", id="logo"):
+                with tag("img", src="/LH/Logo_LH_Necro.png"):
                     pass
             with tag("div", id="text_accueil_LH"):
                 text(titre_lh)
@@ -88,7 +88,7 @@ def genere_article(n_lh, titre_lh, name, autres_articles):
 MD_404 = """
 Le contenu que vous recherchez n'existe pas! (encore)
 
-[Revenir à la page d'accueil](/home.html)
+[Revenir à la page d'accueil](/index.html)
 """
 
 def genere_404():
@@ -141,7 +141,7 @@ def genere_edition(n_lh, tire_lh, articles):
     html = doc.getvalue()
 
     # genere le html dans "static"
-    with open(f"static/{n_lh}/home.html", "w",encoding='utf-8') as file:
+    with open(f"static/{n_lh}/index.html", "w",encoding='utf-8') as file:
         file.write(html)
 
 
