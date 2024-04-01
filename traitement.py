@@ -15,6 +15,21 @@ def header(html_generator, titre):
             pass
 
 
+LOGOS = {
+        "televerset": "/static/logo_televerset_dead.svg"
+}
+
+def navbar_entry(html_generator, nom, url):
+    doc, tag, text = html_generator.tagtext()
+    with tag("li"):
+        with tag("a", href=url):
+            for logo in LOGOS.keys():
+                if logo in nom:
+                    with tag("img", src=LOGOS[logo], klass="logo"):
+                        pass
+            text(nom)
+
+
 def navbar(html_generator, articles):
     doc, tag, text = html_generator.tagtext()
     with tag("div", klass="large_element_hors_grille"):
@@ -25,9 +40,8 @@ def navbar(html_generator, articles):
                         text("les articles de la semaine")
                     with tag('ul', klass="sous"):
                         for (url, nom) in articles:
-                            with tag("li"):
-                                with tag("a", href=url):
-                                    text(nom)
+                            navbar_entry(html_generator, nom, url)
+
                 with tag("li"):
                     with tag("a", href="evenements.html"):
                         text("Les derniers numéros")
