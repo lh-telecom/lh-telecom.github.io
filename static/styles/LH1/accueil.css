@@ -166,3 +166,18 @@ nav > ul li:hover .sous {
     margin: 10%;
     width: 80%;
 }
+
+blockquote {
+  background-color: rgb(2, 93, 30);
+  border-radius: 12pt;
+  padding-top: .5vw;
+  padding-bottom: .5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.mot_de_la_redaction blockquote p {
+  font-family: cursive;
+  font-size: 1.5vw;
+  color : rgb(133, 220, 143);
+}
